@@ -30,5 +30,17 @@ Para comprobrar la funcionalidad de la landing seguir los siguientes pasos.
 8) Descargar o clonar el codigo del siguiente repositorio: https://github.com/egnfsandoval/test_php.git
 9) Al finalizar la descarga o clonar el repositorio debe de copiar las carpetas(marcado en amarillo) al directorio C:\xampp\htdocs.
     <img width="1226" height="273" alt="image" src="https://github.com/user-attachments/assets/01777c80-aff9-4726-88c5-f9591b56ad5e" />
+10) Despues de pegar las carpetas: api, includes y landing al directorio C:\xampp\htdocs, se debe de ingresar a la siguiente url: http://localhost/landing/ y poder visualizar la pagina.
+    <img width="1917" height="997" alt="image" src="https://github.com/user-attachments/assets/9fd9db17-43ad-4d11-a1b8-ffc76d0ad701" />
+11) Se deben de ingresar los datos correctos segun las validaciones indicadas en el documento y registrar al usuario.
+    <img width="1671" height="629" alt="image" src="https://github.com/user-attachments/assets/c394e07d-1d0d-4c49-8aab-3394e4229c6f" />
+    Si los datos son correctos se habilita el boton para guardar y se muestra el siguiente mensaje.
+    <img width="1618" height="475" alt="image" src="https://github.com/user-attachments/assets/6d84d6c7-d1bc-475d-a886-4f87a9925e39" />
+    Se revisa en base de datos si se almaceno el usuario correctamente.
+    <img width="1187" height="136" alt="image" src="https://github.com/user-attachments/assets/9107399d-9c6f-4643-aadc-46e0da8b6948" />
+
+
+
+
 
 
