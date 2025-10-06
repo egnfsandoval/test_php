@@ -1,4 +1,4 @@
-# test_php
+# Prueba Landing
 Para comprobrar la funcionalidad de la landing seguir los siguientes pasos.
 1) Descargar XAMPP de la siguiente url: https://www.apachefriends.org/es/index.html.
 2) Instalar XAMPP en la siguiente version.
@@ -27,5 +27,8 @@ Para comprobrar la funcionalidad de la landing seguir los siguientes pasos.
        fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+8) Descargar o clonar el codigo del siguiente repositorio: https://github.com/egnfsandoval/test_php.git
+9) Al finalizar la descarga o clonar el repositorio debe de copiar las carpetas(marcado en amarillo) al directorio C:\xampp\htdocs.
+    <img width="1226" height="273" alt="image" src="https://github.com/user-attachments/assets/01777c80-aff9-4726-88c5-f9591b56ad5e" />
 
 
