@@ -83,12 +83,14 @@ Leer el arcivo Instrucciones.sql o seguir los pasos que se describen a continuac
 2) Intalar Python y revisar la version:
    <img width="856" height="734" alt="image" src="https://github.com/user-attachments/assets/1821d328-c36c-407d-a134-f9ccf2521cdc" />
 3) Instalar plugin de Python en Visual studio code.
+   
     <img width="315" height="698" alt="image" src="https://github.com/user-attachments/assets/477d79ee-df81-4b79-9cf7-02bb24bc0b17" />
-4) Abrir archivo test.py en Visual Studio Code.
+    
+5) Abrir archivo test.py en Visual Studio Code.
    <img width="1909" height="675" alt="image" src="https://github.com/user-attachments/assets/0f3cfc82-5e8c-4c8c-9c36-daf11da7117e" />
-5) Ejecutar codigo en boton(marcado en amarillo).
+6) Ejecutar codigo en boton(marcado en amarillo).
    <img width="1875" height="486" alt="image" src="https://github.com/user-attachments/assets/453fc376-d69d-4815-81ae-2081a9d115e1" />
-6) En la consola se mostrara los siguientes resultados.
+7) En la consola se mostrara los siguientes resultados.
    <img width="1901" height="987" alt="image" src="https://github.com/user-attachments/assets/1abc9981-22aa-4414-9d3d-a788bf9d6191" />
 
 
