@@ -7,4 +7,7 @@ Para comprobrar la funcionalidad de la landing seguir los siguientes pasos.
    <img width="666" height="250" alt="image" src="https://github.com/user-attachments/assets/293f29f1-b67e-4590-8e53-46e144e28d71" />
 4) Descargar dbeaver de la siguiente url https://dbeaver.io/download/ y descargar el instalador(marcado en amarillo)
    <img width="1659" height="561" alt="image" src="https://github.com/user-attachments/assets/c582766e-0a14-4883-bf15-8243db94fa99" />
+5) Realizar la instalacion de dbeaver y configurar la conexion a la base de datos mysql que se instalao con XAMPP con los siquites datos.
+   <img width="1312" height="586" alt="image" src="https://github.com/user-attachments/assets/a2de044f-e724-4d43-a804-c9856140a37e" />
+   El usurio default es root y la contraseña se deja en blanco
 
