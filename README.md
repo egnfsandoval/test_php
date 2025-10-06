@@ -39,7 +39,33 @@ Para comprobrar la funcionalidad de la landing seguir los siguientes pasos.
     Se revisa en base de datos si se almaceno el usuario correctamente.
     <img width="1187" height="136" alt="image" src="https://github.com/user-attachments/assets/9107399d-9c6f-4643-aadc-46e0da8b6948" />
 
+# Seccion 3 SQL.
+Leer el arcivo Instrucciones.sql o seguir los pasos que se describen a continuacion.
 
+1) Seleccionar base de datos con el siguiente comando use test; en dbeaver.
+2) En dbeaver ejecutar el siguiente script:
+
+      INSERT INTO usuarios (nombre, correo, password_hash, fecha_nacimiento)
+        SELECT 
+       CONCAT('Usuario ', n) AS nombre,
+       CONCAT('usuario', n, '@ejemplo.com') AS correo,
+       SHA2(CONCAT('Password!', n), 256) AS password_hash,
+       DATE_ADD('1980-01-01', INTERVAL (FLOOR(1 + (RAND() * 8000))) DAY) AS fecha_nacimiento
+     FROM (
+       SELECT @row := @row + 1 AS n
+       FROM information_schema.tables t1, information_schema.tables t2, (SELECT @row:=0) init
+       LIMIT 100
+     ) x;
+ 3) Paraa las consultas que se solicitan en el documento se debe de ejecutar los scripts que estan en el repositorio.
+       3.1) Usuarios registrados últimos 30 días.
+           Ejecutar el script en el archivo con nombre: Usuarios_registrados_ultimos_30_ dias.sql
+       3.2) Contar usuarios con correo @gmail.com.
+           Ejecutar el script en el archivo con nombre: Contar_usuarios_con_correo_@gmailcom.sql
+       3.3) Actualizar nombre de usuario con id=10.
+           Ejecutar el script en el archivo con nombre: Actualizar_nombre_de_usuario_con_id_10.sql
+       3.4) Eliminar usuario con id=15.
+           Ejecutar el script en el archivo con nombre: Eliminar_usuario_con_id_15.sql
+          
 
 
 
